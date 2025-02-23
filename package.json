@@ -1,0 +1,21 @@
+{
+  "name": "serverless-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.3",
+    "zkusd": "file:../core/zkusd-0.3.0.tgz",
+    "o1js": "2.2.0"
+  }
+}
