@@ -16,7 +16,7 @@ import {
   FailedBeforeSending,
   getContractKeys,
   fetchMinaAccount,
-} from "zkusd";
+} from "@zkusd/core";
 import * as fs from "fs/promises";
 import * as path from "path";
 
